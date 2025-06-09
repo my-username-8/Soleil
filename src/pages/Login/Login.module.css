@@ -15,6 +15,9 @@
   padding: 5px 10px;
   outline: none;
 }
+.loginWrapper {
+  text-decoration: none;
+}
 .signupBtn {
   color: black;
   font-size: 0.9rem;

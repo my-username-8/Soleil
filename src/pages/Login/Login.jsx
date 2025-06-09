@@ -10,8 +10,9 @@ export default function Login() {
           <Heading />
           <input placeholder="Enter username: " />
           <input placeholder="Enter password: " />
-
-          <button className={styles.loginBtn}>Login</button>
+          <Link to="/dashboard" className={styles.loginWrapper}>
+            <button className={styles.loginBtn}>Login</button>
+          </Link>
           <Link className={styles.signupBtn} to="/getstarted">
             Not registered yet? Create an account!
           </Link>
