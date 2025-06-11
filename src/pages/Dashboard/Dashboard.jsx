@@ -1,6 +1,16 @@
+import { useEffect, useState } from "react";
 import styles from "./Dashboard.module.css";
 import { Link } from "react-router-dom";
 export default function Dashboard() {
+  let [quote, setQuote] = useState("Loading..");
+
+  useEffect(() => {
+    fetch(`${import.meta.env.VITE_API_URL}/getQuote`)
+      .then((res) => res.json())
+      .then((res) => setQuote(res.quote))
+      .catch((err) => console.log(err));
+  }, []);
+
   return (
     <>
       <header>
@@ -10,10 +20,9 @@ export default function Dashboard() {
         <div>[User]</div>
       </header>
 
-      {/* Main dashboard */}
       <section className={styles.dashboard}>
         <div className={styles.quote}>
-          <h2>In process 👷🏻</h2>
+          <h2>{quote}</h2>
         </div>
       </section>
     </>
