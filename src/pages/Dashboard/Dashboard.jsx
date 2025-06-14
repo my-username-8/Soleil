@@ -12,7 +12,7 @@ export default function Dashboard() {
   }, []);
 
   return (
-    <>
+    <div className={styles.mainDashboard}>
       <header>
         <Link to="/" className={styles.headingWrapper}>
           <h1 className={styles.heading}>Soleil</h1>
@@ -25,6 +25,6 @@ export default function Dashboard() {
           <h2>{quote}</h2>
         </div>
       </section>
-    </>
+    </div>
   );
 }

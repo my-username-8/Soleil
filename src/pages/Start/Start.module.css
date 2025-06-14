@@ -1,41 +1,49 @@
 .heroSection {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentWrapper {
+  position: relative;
+  z-index: 4;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
 }
 .content {
-  padding-top: 35vh;
-  margin-left: 10%;
+  width: 40%;
 }
-
-.noButton {
-  display: block;
-  font-size: 1rem;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  text-decoration: underline;
-  margin-bottom: 7px;
-}
-
 .signupButton {
   text-decoration: none;
-  border: 1px solid black;
-  background-color: lightgray;
-  color: black;
-  padding: 2px 3px;
+  border: 1.5px solid #8a724d;
+  font-size: 1.6vw;
+  background-color: #fde2a1;
+  box-shadow: 4px 4px 0 #8a724d54, 4px 4px 0 #8a724d54;
+  border-radius: 4px;
+  padding: 10px 16px;
 }
 
-.typing {
-  font-size: 1rem;
-  margin-bottom: 10px;
-  width: 0;
-  border-right: 2px solid black;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 4s steps(29) alternate infinite;
+.description {
+  font-size: 2vw;
+  margin-bottom: 25px;
+}
+.demo {
+  width: 50%;
+}
+.box {
+  margin-top: 15%;
+  background-color: #fde2a1;
+  border-radius: 4px;
+  padding: 25px;
+  box-shadow: 8px 8px 0 #8a724d39, 8px 8px 0 #8a724d39;
 }
 
-@keyframes typing {
-  to {
-    width: 29ch;
-  }
+.gifWrapper {
+  border-radius: 4px;
+}
+.gifWrapper img {
+  width: 100%;
+  border-radius: 4px;
 }

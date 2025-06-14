@@ -1,3 +1,10 @@
 .heading {
-  font-size: 3rem;
+  font-size: 4.2vw;
+}
+.flexContainer {
+  display: flex;
+  align-items: center;
+}
+.flexContainer img {
+  align-self: flex-start;
 }
