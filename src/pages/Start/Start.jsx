@@ -1,6 +1,7 @@
 import styles from "./Start.module.css";
 import { Link } from "react-router-dom";
 import Heading from "../../components/Heading/Heading";
+import screenShot from "../../assets/screenshot.png";
 export default function Start() {
   return (
     <>
@@ -22,7 +23,7 @@ export default function Start() {
           <div className={styles.demo}>
             <div className={styles.box}>
               <div className={styles.gifWrapper}>
-                <img src="/src/assets/screenshot.png" alt="" />
+                <img src={screenShot} alt="" />
               </div>
             </div>
           </div>
