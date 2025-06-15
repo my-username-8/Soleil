@@ -6,21 +6,30 @@
   position: relative;
   z-index: 4;
 }
-.info {
-  margin-top: 35vh;
-  padding-left: 10%;
+.infoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 .info input,
 .loginBtn {
   display: block;
   margin: 10px 0px;
-  padding: 5px 10px;
   outline: none;
+}
+.info label {
+  display: block;
+  margin: 15px 0px;
+  font-size: 1.2vw;
+}
+
+.loginBtn {
+  margin: 20px 0px;
 }
 .loginWrapper {
   text-decoration: none;
 }
 .signupBtn {
-  color: black;
-  font-size: 0.9rem;
+  font-size: 1.1vw;
 }

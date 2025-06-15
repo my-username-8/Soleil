@@ -6,16 +6,28 @@ export default function GetStarted() {
   return (
     <>
       <section className={styles.content}>
-        <div className={styles.info}>
-          <Heading />
-          <input placeholder="Your Name: " />
-          <input placeholder="Chosen username: " />
-          <input placeholder="Chosen password: " />
+        <div className={styles.infoWrapper}>
+          <div className={styles.info}>
+            <Heading />
 
-          <button className={styles.createAccBtn}>Create your account</button>
-          <Link className={styles.loginBtn} to="/login">
-            Already Registered? Login here!
-          </Link>
+            <label>
+              <div>Your Name</div>
+              <input type="text" />
+            </label>
+            <label>
+              <div>Your Username</div>
+              <input type="text" />
+            </label>
+            <label>
+              <div>Your Password</div>
+              <input type="password" />
+            </label>
+
+            <button className={styles.createAccBtn}>Create your account</button>
+            <Link className={styles.loginBtn} to="/login">
+              Already Registered? Login here!
+            </Link>
+          </div>
         </div>
 
         <SideImage />

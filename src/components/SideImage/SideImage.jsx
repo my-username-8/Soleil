@@ -1,8 +1,9 @@
 import styles from "./SideImage.module.css";
+import image from "../../assets/getStarted.png";
 export default function SideImage() {
   return (
     <div className={styles.imageSection}>
-      <img src="/src/assets/getStarted.gif" alt="" />
+      <img src={image} alt="" />
     </div>
   );
 }
