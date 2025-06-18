@@ -8,7 +8,7 @@
 .contentWrapper {
   position: relative;
   z-index: 4;
-  width: 60%;
+  width: 55%;
   display: flex;
   justify-content: space-between;
 }
@@ -18,7 +18,7 @@
 .signupButton {
   text-decoration: none;
   border: 1.5px solid #8a724d;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   background-color: #fde2a1;
   box-shadow: 4px 4px 0 #8a724d54, 4px 4px 0 #8a724d54;
   border-radius: 4px;
@@ -30,20 +30,11 @@
   margin-bottom: 25px;
 }
 .demo {
-  width: 50%;
+  width: 55%;
 }
 .box {
-  margin-top: 15%;
-  background-color: #fde2a1;
-  border-radius: 4px;
-  padding: 25px;
-  box-shadow: 8px 8px 0 #8a724d39, 8px 8px 0 #8a724d39;
+  margin-top: 10%;
 }
-
-.gifWrapper {
-  border-radius: 4px;
-}
-.gifWrapper img {
+.box img {
   width: 100%;
-  border-radius: 4px;
 }
