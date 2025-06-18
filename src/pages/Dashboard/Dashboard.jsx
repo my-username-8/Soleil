@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./Dashboard.module.css";
-import { Link } from "react-router-dom";
+import Heading from "../../components/Heading/Heading";
 export default function Dashboard() {
   let [quote, setQuote] = useState("Loading..");
 
@@ -14,9 +14,7 @@ export default function Dashboard() {
   return (
     <div className={styles.mainDashboard}>
       <header>
-        <Link to="/" className={styles.headingWrapper}>
-          <h1 className={styles.heading}>Soleil</h1>
-        </Link>
+        <Heading font="2.5vw" />
         <div>[User]</div>
       </header>
 

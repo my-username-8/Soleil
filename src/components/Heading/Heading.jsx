@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
 import styles from "./Heading.module.css";
-import SunIcon from "../../assets/sun.svg";
-export default function Heading() {
+export default function Heading({ font = "4.2vw" }) {
+  const fontSize = {
+    fontSize: font,
+  };
   return (
-    <div className={styles.flexContainer}>
-      <img src={SunIcon} alt="" />
-      <h1 className={styles.heading}>Soleil</h1>
-    </div>
+    <Link to="/" className={styles.headingWrapper}>
+      <h1 style={fontSize}>Soleil</h1>
+    </Link>
   );
 }
