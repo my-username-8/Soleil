@@ -18,7 +18,7 @@
 .signupButton {
   text-decoration: none;
   border: 1.5px solid #8a724d;
-  font-size: 1.6vw;
+  font-size: 1.6rem;
   background-color: #fde2a1;
   box-shadow: 4px 4px 0 #8a724d54, 4px 4px 0 #8a724d54;
   border-radius: 4px;
@@ -26,7 +26,7 @@
 }
 
 .description {
-  font-size: 2vw;
+  font-size: 1.8rem;
   margin-bottom: 25px;
 }
 .demo {

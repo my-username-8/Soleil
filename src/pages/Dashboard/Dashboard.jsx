@@ -14,7 +14,7 @@ export default function Dashboard() {
   return (
     <div className={styles.mainDashboard}>
       <header>
-        <Heading font="2.5vw" />
+        <Heading font="2.5rem" />
         <div>[User]</div>
       </header>
 

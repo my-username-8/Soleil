@@ -19,7 +19,6 @@
 .info label {
   display: block;
   margin: 15px 0px;
-  font-size: 1.2vw;
 }
 
 .loginBtn {
@@ -30,7 +29,7 @@
 }
 .signupBtn,
 .resetBtn {
-  font-size: 1.1vw;
+  font-size: 1.1rem;
 }
 .resetBtn {
   display: block;

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Heading.module.css";
-export default function Heading({ font = "4.2vw" }) {
+export default function Heading({ font = "4rem" }) {
   const fontSize = {
     fontSize: font,
   };
