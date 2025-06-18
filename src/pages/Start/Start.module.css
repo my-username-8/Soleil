@@ -11,6 +11,7 @@
   width: 55%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .content {
   width: 40%;
@@ -32,22 +33,36 @@
 .demo {
   width: 55%;
 }
-.box {
-  margin-top: 10%;
-}
 .box img {
   width: 100%;
+  height: auto;
 }
 
 @media (max-width: 768px) {
+  .heroSection {
+    padding: 1rem;
+  }
+
   .contentWrapper {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
   }
+
   .content {
     width: 100%;
+    margin-bottom: 2rem;
   }
-  .box {
+
+  .demo {
     width: 100%;
-    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .box {
+    max-width: 300px;
+    margin-top: 0;
   }
 }
