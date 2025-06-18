@@ -10,9 +10,11 @@ export default function Start() {
           <div className={styles.content}>
             <Heading />
             <div className={styles.description}>
-              <div>Your digital companion</div>
-              <div>for mindfulness and</div>
-              <div>self-reflection.</div>
+              Your digital companion
+              <br />
+              for mindfulness and
+              <br />
+              self-reflection.
             </div>
             <div className={styles.buttons}>
               <Link className={styles.signupButton} to="/getstarted">
