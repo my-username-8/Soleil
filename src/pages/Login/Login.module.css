@@ -1,37 +1,12 @@
-.content {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  position: relative;
-  z-index: 4;
-}
-.info {
-  width: 20%;
-}
-.info input,
 .loginBtn {
   display: block;
-  margin: 10px 0px;
-  outline: none;
+  margin: 20px 0px;
 }
-.info label {
-  display: block;
-  margin: 15px 0px;
-}
-
-.loginBtn {
-  margin: 20px 0px 10px;
-}
-.loginWrapper {
-  text-decoration: none;
-}
-.signupBtn,
-.resetBtn {
+.goToSignup,
+.goToReset {
   font-size: 1.1rem;
 }
-.resetBtn {
+.goToReset {
   display: block;
   margin-bottom: 15px;
 }

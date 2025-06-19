@@ -30,15 +30,16 @@ input {
   padding: 10px;
   border-radius: 4px;
   width: 100%;
+  outline: none;
 }
 button {
-  padding: 10px 0px;
   box-shadow: 4px 4px 0 #8a724d54, 4px 4px 0 #8a724d54;
   border: 1.5px solid #8a724d;
   border-radius: 4px;
   padding: 10px 16px;
   background-color: #fde2a1;
   font-size: 1.2rem;
+  width: 100%;
 }
 label {
   font-size: 1.2rem;

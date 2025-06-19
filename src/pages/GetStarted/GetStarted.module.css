@@ -1,32 +1,7 @@
-.content {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  position: relative;
-  z-index: 4;
-}
-
-.info {
-  width: 20%;
-}
-.info input,
-.createAccBtn {
-  display: block;
-  outline: none;
-  margin: 10px 0px;
-}
-
-.info label {
-  display: block;
-  margin: 15px 0px;
-}
-
-.createAccBtn {
-  margin: 20px 0px;
-}
-
-.loginBtn {
+.goToLogin {
   font-size: 1.1rem;
+}
+.createAccBtn {
+  display: block;
+  margin: 20px 0px;
 }
