@@ -5,3 +5,24 @@
   display: block;
   margin: 20px 0px;
 }
+.msg {
+  padding: 10px 16px;
+  background-color: #fde2a1;
+  border: 1.5px solid #8a724d;
+  color: #5b4631;
+  border-radius: 6px;
+  font-size: 1rem;
+  max-width: 400px;
+  margin: 16px auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.inputErr {
+  border-color: #e57373;
+}
+
+.errmsg {
+  color: #d32f2f;
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+  padding-left: 2px;
+}

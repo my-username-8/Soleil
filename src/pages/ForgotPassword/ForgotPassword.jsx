@@ -11,7 +11,7 @@ export default function ForgotPassword() {
             Please enter the code sent to your{" "}
             <div className={styles.highlight}>Registered Email Address</div>
           </div>
-          <input type="text" />
+          <input type="text" name="code" autoComplete="off" />
         </label>
 
         <button className={styles.resetBtn}>Reset Password</button>
